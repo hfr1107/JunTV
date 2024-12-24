@@ -9,7 +9,7 @@ on:
       - main
       - master
       - dev
-      - gd
+      - ta
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Set branch name
         id: vars
-        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'gd' || 'main' }}" >> $GITHUB_ENV
+        run: echo "BRANCH_NAME=${{ github.repository_owner == 'Guovin' && 'ta' || 'main' }}" >> $GITHUB_ENV
       - uses: actions/checkout@v3
         with:
           ref: ${{ env.BRANCH_NAME }}
