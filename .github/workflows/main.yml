@@ -9,6 +9,7 @@ on:
       - main
       - master
       - dev
+      - gd
 jobs:
   push:
     runs-on: ${{ matrix.operating-system }}
