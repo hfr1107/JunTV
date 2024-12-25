@@ -1,6 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 https://ghgo.xyz/https://raw.githubusercontent.com/alantang1977/X/refs/heads/main/live/myiptv.txt
+https://ghgo.xyz/https://raw.githubusercontent.com/alantang1977/pg/refs/heads/main/live.txt
 https://ghgo.xyz/https://raw.githubusercontent.com/wwb521/live/refs/heads/main/tv.m3u
 https://ghgo.xyz/https://raw.githubusercontent.com/fanmingming/live/refs/heads/main/tv/m3u/ipv6.m3u
 https://ghgo.xyz/https://raw.githubusercontent.com/yuanzl77/IPTV/refs/heads/main/live.txt
