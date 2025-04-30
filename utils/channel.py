@@ -151,10 +151,10 @@ def get_channel_items() -> CategoryChannelData:
                                         if info:
                                             try:
                                                 resolution = info.get("resolution")
-                                                if info.get("delay") == -1 or info.get("speed") == 0 or (
+                                                if info.get("delay") == -1 or info.get("speed") < 0.1 or (
                                                         resolution and get_resolution_value(
-                                                        resolution) < min_resolution_value) or check_url_by_keywords(
-                                                        url, blacklist):
+                                                    resolution) < min_resolution_value) or check_url_by_keywords(
+                                                    url, blacklist):
                                                     invalid_channels.add(info["url"])
                                                     continue
                                                 if info["origin"] == "whitelist" and not any(
@@ -747,9 +747,9 @@ def sort_channel_result(channel_data, result, filter_host=False, ipv6_support=Tr
                             if value["origin"] in ["whitelist", "live", "hls"] or
                                (not ipv6_support and value["ipv_type"] == "ipv6")
                         ]
-                        + result[cate][name]
+                        + result.get(cate, {}).get(name, [])
                 )
-            sort_result = get_sort_result(name_results, name=name, logger=logger)
+            sort_result = get_sort_result(name_results, name=name, ipv6_support=ipv6_support, logger=logger)
             append_data_to_info_data(
                 channel_result,
                 cate,
