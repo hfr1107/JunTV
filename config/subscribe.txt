@@ -1,6 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+https://smart.pendy.dpdns.org/m3u/Smart.m3u
 http://lisha521.dynv6.net.fh4u.org/tv.txt
 https://judy.livednow.dpdns.org/ysp.m3u
 https://9877.kstore.space/Live/live.m3u
