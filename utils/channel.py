@@ -43,7 +43,7 @@ from utils.tools import (
 from utils.types import ChannelData, OriginType, CategoryChannelData
 
 channel_alias = Alias()
-invalid_channels = set()
+frozen_channels = set()
 
 
 def format_channel_data(url: str, origin: OriginType) -> ChannelData:
@@ -155,7 +155,7 @@ def get_channel_items() -> CategoryChannelData:
                                                         resolution and get_resolution_value(
                                                     resolution) < min_resolution_value) or check_url_by_keywords(
                                                     url, blacklist):
-                                                    invalid_channels.add(info["url"])
+                                                    frozen_channels.add(info["url"])
                                                     continue
                                                 if info["origin"] == "whitelist" and not any(
                                                         url in info["url"] for url in whitelist_urls):
@@ -163,6 +163,10 @@ def get_channel_items() -> CategoryChannelData:
                                             except:
                                                 pass
                                             if info["url"] not in urls:
+                                                channels[cate][name].append(info)
+                                    if not channels[cate][name]:
+                                        for info in old_result[cate][name]:
+                                            if info and info["url"] not in urls:
                                                 channels[cate][name].append(info)
             except Exception as e:
                 print(f"Error loading cache file: {e}")
@@ -524,7 +528,7 @@ def append_data_to_info_data(
 
             if not url_origin or not url:
                 continue
-            if url in invalid_channels or (url in existing_urls and (url_origin != "whitelist" and not headers)):
+            if url in frozen_channels or (url in existing_urls and (url_origin != "whitelist" and not headers)):
                 continue
 
             if not ipv_type:
@@ -652,6 +656,9 @@ def append_total_data(
     whitelist = get_urls_from_file(constants.whitelist_path)
     blacklist = get_urls_from_file(constants.blacklist_path, pattern_search=False)
     url_hosts_ipv_type = {}
+    open_history = config.open_history
+    open_local = config.open_local
+    open_rtmp = config.open_rtmp
     for obj in data.values():
         for value_list in obj.values():
             for value in value_list:
@@ -660,7 +667,7 @@ def append_total_data(
     for cate, channel_obj in items:
         for name, old_info_list in channel_obj.items():
             print(f"{name}:", end=" ")
-            if old_info_list and (config.open_history or config.open_local or config.open_rtmp):
+            if (open_history or open_local or open_rtmp) and old_info_list:
                 append_old_data_to_info_data(data, cate, name, old_info_list, whitelist=whitelist, blacklist=blacklist,
                                              ipv_type_data=url_hosts_ipv_type)
             for method, result in total_result:
