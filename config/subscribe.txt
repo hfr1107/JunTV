@@ -1,6 +1,9 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+http://47.120.41.246:8899/zb.txt
+http://kkk.jjjj.jiduo.me/user/tttt/api.txt
+https://d.h6room.com/frjzb.txt
 http://is.is-great.org/ii/1748304438.txt
 https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1737651956313/tptv.m3u
 https://d.kstore.dev/download/9771/nmg012345678/A20241203.txt
