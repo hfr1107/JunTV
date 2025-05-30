@@ -616,6 +616,7 @@ CETV4,https://piccpndali.v.myalicdn.com/audio/cetv4_2.m3u8
 
 🦄️港·澳·台🔢,#genre#
 鳳凰衛視中文台,http://jxiptv.dpdns.org/stream/4gtv/null-3/master.m3u8?u=test&p=9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
+凤凰资讯,http://e2.woc.iiiya.cn:28888/rtp/239.61.5.47:1025
 鳳凰衛視資訊台,http://jxiptv.dpdns.org/stream/4gtv/null-4/master.m3u8?u=test&p=9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
 鳳凰衛視香港台,http://jxiptv.dpdns.org/stream/4gtv/null-5/master.m3u8?u=test&p=9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
 翡翠台 4K,http://jxiptv.dpdns.org/stream/4gtv/4k/master.m3u8?u=test&p=9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08
