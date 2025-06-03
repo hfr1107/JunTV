@@ -1,6 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+https://git.acwing.com/cisenyuan/kdsb/-/raw/main/txt/tvzb.txt
 http://iptv.diyp.site/diyp.php
 http://is.is-great.org//ii/1748786018.txt
 https://gh.tryxd.cn/https://raw.githubusercontent.com/iodata999/frxz751113-IPTVzb1/refs/heads/main/结果.m3u
