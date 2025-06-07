@@ -1,7 +1,8 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
-
+https://fel.forxhr.top:2022/down.php/ffd769867d9207f9641336d45d2277f2.全球txt
+https://mpimg.cn/down.php/1cc967ebb95af61e470206f557c6d0f3.txt
 https://smt.iktv.ddns-ip.net/Smart.php
 https://cnb.cool/junchao.tang/llive/-/git/raw/main/myTV.txt
 https://live.kakaxi-1.ink/ipv4.txt
