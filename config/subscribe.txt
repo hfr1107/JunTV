@@ -1,6 +1,7 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+http://kkk.888.3116598.xyz/user/HKTV.txt
 https://nptv.freetv.top/juhe.m3u
 http://is.is-great.org/ii/1749383140.txt
 http://go8.myartsonline.com/zx/0/iptv.txt
