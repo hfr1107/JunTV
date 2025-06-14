@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<tv date="20250614033727 +0800">
+<tv date="20250614105831 +0800">
 	<channel id="CCTV-1">
 		<display-name lang="zh">CCTV-1</display-name>
 	</channel>
@@ -15210,6 +15210,15 @@
 	<programme channel="黑莓动画" start="20250614095500 +0800" stop="20250614112800 +0800">
 		<title lang="zh">蜡笔小新：梦境世界大突击</title>
 	</programme>
+	<programme channel="黑莓动画" start="20250614112800 +0800" stop="20250614125500 +0800">
+		<title lang="zh">汪汪队立大功大电影2：超能大冒险</title>
+	</programme>
+	<programme channel="黑莓动画" start="20250614125500 +0800" stop="20250614143700 +0800">
+		<title lang="zh">天空的遇难船 中文版</title>
+	</programme>
+	<programme channel="黑莓动画" start="20250614143700 +0800" stop="20250614163000 +0800">
+		<title lang="zh">业火的向日葵 日语版</title>
+	</programme>
 	<channel id="黑莓电影">
 		<display-name lang="zh">黑莓电影</display-name>
 	</channel>
@@ -15233,6 +15242,15 @@
 	</programme>
 	<programme channel="黑莓电影" start="20250614101000 +0800" stop="20250614113700 +0800">
 		<title lang="zh">超时空心跳</title>
+	</programme>
+	<programme channel="黑莓电影" start="20250614113700 +0800" stop="20250614132500 +0800">
+		<title lang="zh">迷宫的十字路口</title>
+	</programme>
+	<programme channel="黑莓电影" start="20250614132500 +0800" stop="20250614144000 +0800">
+		<title lang="zh">鲛人传说之人间情</title>
+	</programme>
+	<programme channel="黑莓电影" start="20250614144000 +0800" stop="20250614161200 +0800">
+		<title lang="zh">时空之旅</title>
 	</programme>
 	<channel id="黑龙江卫视">
 		<display-name lang="zh">黑龙江卫视</display-name>
