@@ -20,6 +20,7 @@ https://smart.pendy.dpdns.org/m3u/iptv-gongyi.m3u
 https://gh.tryxd.cn/https://raw.githubusercontent.com/lbxxxtw2/clash/refs/heads/main/new.txt
 https://gh.tryxd.cn/https://raw.githubusercontent.com/mai761/iptv-subscription/refs/heads/main/My.m3u
 https://gh.tryxd.cn/https://raw.githubusercontent.com/mai761/iptv-subscription/refs/heads/main/zgyd.m3u
+https://gh.tryxd.cn/https://raw.githubusercontent.com/alantang1977/jtv/refs/heads/main/song
 https://yun.urldwz.com/f/Q6y3ca/migu.m3u
 https://cccimg.com/down.php/bff36da26c7fa82e6943f3f55014cb80.txt
 http://ys.my.to/i/?T=ydyw
