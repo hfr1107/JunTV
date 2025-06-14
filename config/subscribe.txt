@@ -1,6 +1,8 @@
 # 这是订阅源列表，每行一个订阅地址
 # This is a list of subscription sources, with one subscription address per line
 
+
+https://upld.zone.id/uploads/q9iq9e5iq/lvse.txt
 https://gitee.com/t-v/tt/raw/t/c.txt
 https://ltjm.37o.cc/jm/qwtds.php
 http://gg.7749.org/z/i/gdss.txt
