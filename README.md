@@ -92,24 +92,24 @@
 - 默认
 
 ```bash
-[https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/refs/heads/main/output/ipv4/result.txt]
+https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/output/result.txt
 ```
 
 - IPv6
 
 ```bash
-[https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/refs/heads/main/output/ipv4/result.txt]
+https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/output/ipv6/result.txt
 ```
 
 - IPv4
 ```bash
-[https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/refs/heads/main/output/ipv4/result.txt]
+https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/output/ipv4/result.txt
 ```
 
 ### 点播源
 
 ```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/source.json
+https://raw.githubusercontent.com/hfr1107/JunTV/gd/source.json
 ```
 
 ## 配置
