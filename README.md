@@ -92,7 +92,7 @@
 - 默认
 
 ```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u
+https://py.nxog.eu.org/
 ```
 
 - IPv6
