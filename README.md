@@ -92,19 +92,18 @@
 - 默认
 
 ```bash
-https://py.nxog.eu.org/
+[https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/refs/heads/main/output/ipv4/result.txt]
 ```
 
 - IPv6
 
 ```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv6/result.m3u
+[https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/refs/heads/main/output/ipv4/result.txt]
 ```
 
 - IPv4
-
 ```bash
-https://raw.githubusercontent.com/Guovin/iptv-api/gd/output/ipv4/result.m3u
+[https://py.nxog.eu.org/https://raw.githubusercontent.com/hfr1107/JunTV/refs/heads/main/output/ipv4/result.txt]
 ```
 
 ### 点播源
